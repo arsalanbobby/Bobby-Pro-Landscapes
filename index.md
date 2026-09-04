@@ -3,42 +3,59 @@ title: Home
 description: Bobby Pro Landscapes provides professional garden landscaping, paving, fencing and outdoor improvements across England.
 ---
 
-<section class="hero landscape-hero">
+<section class="hero landscape-hero approved-landscape-hero">
   <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">Landscaping • Paving • Fencing</p>
-      <h1>Creating better gardens and outdoor spaces.</h1>
-      <p class="lead">Professional landscaping for practical, attractive gardens — from paving and fencing to lawns, garden preparation and complete outdoor transformations.</p>
+    <div class="landscape-hero-copy">
+      <p class="eyebrow hero-eyebrow">Beautiful gardens for a brighter tomorrow</p>
+      <h1>Landscapes<br>As You <span>Dream Of</span></h1>
+      <p class="lead">Bobby Pro Landscapes delivers high-quality garden landscaping and outdoor solutions across England. From patios and lawns to fencing and full garden transformations, we bring your ideas to life with reliable workmanship and attention to detail.</p>
       <div class="actions">
-        <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a quote</a>
-        <a class="btn" href="{{ '/services/' | relative_url }}">View landscaping services</a>
+        <a class="btn primary" href="{{ '/services/' | relative_url }}">Our Services →</a>
+        <a class="btn hero-outline" href="{{ '/contact/' | relative_url }}">Get a Free Quote</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="trust-strip">
+<section class="trust-strip landscape-trust">
   <div class="container trust-grid">
-    <div>15+ years experience</div><div>Garden transformations</div><div>Professional workmanship</div><div>Fully insured</div>
+    <div><strong>15+ Years</strong><br>Experience</div>
+    <div><strong>Reliable & Trusted</strong><br>Professional service</div>
+    <div><strong>Fully Insured</strong><br>For your peace of mind</div>
+    <div><strong>Covering England</strong><br>Garden & outdoor work</div>
   </div>
 </section>
 
-<section class="section">
+<section class="section landscape-services-home">
   <div class="container">
-    <p class="eyebrow">What we do</p>
-    <h2>Landscaping for every part of your garden</h2>
-    <p class="section-intro">Whether you want a cleaner, easier-to-maintain garden or a full transformation, Bobby Pro Landscapes can help create a practical outdoor space that suits your home.</p>
-    <div class="landscape-service-grid">
-      <article class="card photo-card"><img src="{{ '/assets/images/patio-paving.jpg' | relative_url }}" alt="Patio and paving project"><div class="photo-card-body"><h3>Patios, paving & pathways</h3><p>Well-prepared patios, paved areas and pathways with a clean professional finish.</p></div></article>
-      <article class="card photo-card"><img src="{{ '/assets/images/lawn-landscaping.jpg' | relative_url }}" alt="Garden lawn landscaping"><div class="photo-card-body"><h3>Lawns & landscaping</h3><p>Garden preparation, new lawns, artificial grass, borders and complete transformations.</p></div></article>
-      <article class="card photo-card"><img src="{{ '/assets/images/fencing.jpg' | relative_url }}" alt="Garden fencing project"><div class="photo-card-body"><h3>Fencing & boundaries</h3><p>Timber fencing, concrete posts and gravel boards for secure, tidy boundaries.</p></div></article>
-    </div>
-  </div>
-</section>
+    <p class="eyebrow centre">Our main services</p>
+    <h2 class="centre">Garden Landscaping <span class="green-text">Services</span></h2>
+    <p class="section-intro centre-copy">Transforming outdoor spaces into beautiful, functional gardens.</p>
 
-<section class="section alt">
-  <div class="container content-grid">
-    <div><p class="eyebrow">Why Bobby Pro Landscapes</p><h2>Practical ideas, careful preparation and a professional finish</h2><p>Good landscaping starts with proper preparation. We create gardens that are attractive, practical and easier to maintain.</p><a class="btn primary" href="{{ '/about/' | relative_url }}">About us</a></div>
-    <div class="contact-box"><h2>Planning a garden project?</h2><p>Tell us what you would like to change and we can discuss the space, your ideas and the next steps.</p><a class="btn" href="{{ '/contact/' | relative_url }}">Contact Bobby Pro Landscapes</a></div>
+    <div class="landscape-service-grid">
+      <article class="photo-card">
+        <img src="{{ '/assets/images/patio-paving.jpg' | relative_url }}" alt="Patio and paving project">
+        <div class="photo-card-body">
+          <h3>Patios, Paving & Pathways</h3>
+          <p>Well-prepared paved areas and pathways designed for everyday use and a clean finish.</p>
+        </div>
+      </article>
+
+      <article class="photo-card">
+        <img src="{{ '/assets/images/lawn-landscaping.jpg' | relative_url }}" alt="Landscaped garden lawn">
+        <div class="photo-card-body">
+          <h3>Lawns & Landscaping</h3>
+          <p>Garden preparation, lawns, artificial grass, borders and complete garden transformations.</p>
+        </div>
+      </article>
+
+      <article class="photo-card">
+        <img src="{{ '/assets/images/fencing.jpg' | relative_url }}" alt="Garden fencing">
+        <div class="photo-card-body">
+          <h3>Fencing & Boundaries</h3>
+          <p>Timber fencing, concrete posts and gravel boards for secure, tidy outdoor spaces.</p>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
