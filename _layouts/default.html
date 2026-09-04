@@ -9,23 +9,27 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header landscape-header">
     <div class="container nav-wrap">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Bobby Pro Landscapes home">
+      <a class="brand landscape-brand" href="{{ '/' | relative_url }}" aria-label="Bobby Pro Landscapes home">
         <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Bobby Pro Landscapes logo">
-        <span>Bobby Pro Landscapes</span>
+        <span>
+          <strong>Bobby Pro</strong>
+          <em>Landscapes</em>
+        </span>
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span class="sr-only">Open menu</span>
-        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span><span></span><span></span><span></span>
       </button>
 
-      <nav id="site-menu" class="site-nav" aria-label="Main navigation">
+      <nav id="site-menu" class="site-nav landscape-nav" aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/services/' | relative_url }}">Services</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
-        <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Request a Quote →</a>
       </nav>
     </div>
   </header>
@@ -36,7 +40,7 @@
     <div class="container footer-grid">
       <div>
         <strong>Bobby Pro Landscapes</strong>
-        <p>Creating practical, attractive outdoor spaces.</p>
+        <p>Design • Build • Transform</p>
       </div>
       <div>
         <strong>Garden & outdoor services</strong>
