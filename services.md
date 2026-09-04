@@ -4,107 +4,30 @@ permalink: /services/
 description: Garden landscaping, paving, fencing, lawns, garden structures and outdoor improvement services.
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <p class="eyebrow">Our services</p>
-    <h1>Professional landscaping for gardens and outdoor spaces.</h1>
-    <p>From preparation and fencing to paving, lawns and complete garden transformations, we provide practical outdoor improvements built to last.</p>
-  </div>
+<section class="page-hero landscape-page-hero">
+  <div class="container"><p class="eyebrow">Our services</p><h1>Professional landscaping for gardens and outdoor spaces.</h1><p>From preparation and fencing to paving, lawns and complete garden transformations, we provide practical outdoor improvements built to last.</p></div>
 </section>
 
 <section class="section">
-  <div class="container content-grid">
-    <div class="service-block">
-      <p class="eyebrow">Garden landscaping</p>
-      <h2>Groundwork & garden improvements</h2>
-      <ul class="service-list">
-        <li>Garden clearance and preparation</li>
-        <li>Garden landscaping</li>
-        <li>New lawns</li>
-        <li>Artificial grass</li>
-        <li>Brick and decorative garden edging</li>
-        <li>Gravel areas and borders</li>
-      </ul>
-    </div>
-
-    <div class="service-block">
-      <p class="eyebrow">Outdoor construction</p>
-      <h2>Paving, fencing & structures</h2>
-      <ul class="service-list">
-        <li>Patios</li>
-        <li>Paving</li>
-        <li>Pathways</li>
-        <li>Timber fencing installation</li>
-        <li>Concrete posts and gravel boards</li>
-        <li>Concrete bases</li>
-        <li>Sheds</li>
-        <li>Timber garden buildings</li>
-      </ul>
+  <div class="container">
+    <p class="eyebrow centre">Our landscaping services</p>
+    <h2 class="centre">Transforming outdoor spaces</h2>
+    <div class="landscape-services-six">
+      <article class="photo-card"><img src="{{ '/assets/images/patio-paving.jpg' | relative_url }}" alt="Patio and paving"><div class="photo-card-body"><h3>Patios & Paving</h3><p>Patios, paved areas and pathways prepared and installed for a long-lasting finish.</p></div></article>
+      <article class="photo-card"><img src="{{ '/assets/images/garden-transformation.jpg' | relative_url }}" alt="Garden transformation"><div class="photo-card-body"><h3>Garden Transformations</h3><p>Clearance, preparation and complete landscaping to refresh the whole garden.</p></div></article>
+      <article class="photo-card"><img src="{{ '/assets/images/fencing.jpg' | relative_url }}" alt="Garden fencing"><div class="photo-card-body"><h3>Fencing</h3><p>Timber fencing with concrete posts and gravel boards where required.</p></div></article>
+      <article class="photo-card"><img src="{{ '/assets/images/lawn-landscaping.jpg' | relative_url }}" alt="New lawn"><div class="photo-card-body"><h3>Lawns & Artificial Grass</h3><p>Ground preparation and installation of new lawns or artificial grass.</p></div></article>
+      <article class="photo-card"><img src="{{ '/assets/images/gravel-borders.jpg' | relative_url }}" alt="Gravel and garden borders"><div class="photo-card-body"><h3>Borders & Edging</h3><p>Brick edging, decorative borders and gravel areas for a tidy finished garden.</p></div></article>
+      <article class="photo-card"><img src="{{ '/assets/images/garden-building.jpg' | relative_url }}" alt="Garden building and base"><div class="photo-card-body"><h3>Garden Buildings & Bases</h3><p>Concrete bases, sheds and timber garden buildings prepared and installed.</p></div></article>
     </div>
   </div>
 </section>
 
 <section class="section alt">
-  <div class="container">
-    <p class="eyebrow">Recent work</p>
-    <h2>Landscape project gallery</h2>
-    <p class="section-intro">Your project photos can be uploaded later. These sections are already prepared for thumbnails and popup viewing.</p>
-
-    <div class="project-grid">
-      <article class="project-card">
-        <div class="project-image" data-label="Patio and paving project">Project photos coming soon</div>
-        <div class="project-body">
-          <h3>Patio & paving</h3>
-          <p>New paved areas and patios designed for practical everyday use and a clean finished look.</p>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image" data-label="Garden transformation project">Project photos coming soon</div>
-        <div class="project-body">
-          <h3>Full garden transformation</h3>
-          <p>Clearance, preparation, layout changes and landscaping to create a completely refreshed outdoor space.</p>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image" data-label="Fencing project">Project photos coming soon</div>
-        <div class="project-body">
-          <h3>Fencing & boundaries</h3>
-          <p>Timber fencing with suitable posts and gravel boards for secure, tidy garden boundaries.</p>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image" data-label="Lawn project">Project photos coming soon</div>
-        <div class="project-body">
-          <h3>Lawns & artificial grass</h3>
-          <p>Ground preparation and installation of new lawns or artificial grass for a clean, usable finish.</p>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-image" data-label="Garden building project">Project photos coming soon</div>
-        <div class="project-body">
-          <h3>Garden buildings & concrete bases</h3>
-          <p>Concrete bases, sheds and timber garden buildings prepared and installed for practical outdoor storage and use.</p>
-        </div>
-      </article>
-    </div>
+  <div class="container service-block">
+    <h2>Complete landscaping service</h2>
+    <ul class="service-list"><li>Garden clearance and preparation</li><li>Garden landscaping</li><li>New lawns</li><li>Artificial grass</li><li>Brick and decorative garden edging</li><li>Gravel areas and borders</li><li>Patios</li><li>Paving</li><li>Pathways</li><li>Timber fencing installation</li><li>Concrete posts and gravel boards</li><li>Concrete bases</li><li>Sheds</li><li>Timber garden buildings</li></ul>
   </div>
 </section>
 
-<div class="gallery-modal" aria-hidden="true">
-  <div class="gallery-dialog">
-    <button class="modal-close" type="button" aria-label="Close image">&times;</button>
-    <div class="gallery-dialog-content"></div>
-  </div>
-</div>
-
-<section class="section">
-  <div class="container contact-box">
-    <h2>Have a different garden project?</h2>
-    <p>Send us the details and photos of the space. We can discuss what you want to achieve and how Bobby Pro Landscapes can help.</p>
-    <a class="btn" href="{{ '/contact/' | relative_url }}">Request a quote</a>
-  </div>
-</section>
+<section class="section"><div class="container contact-box"><h2>Planning a garden project?</h2><p>Send us your location, a short description and photos of the space and we can discuss the next steps.</p><a class="btn" href="{{ '/contact/' | relative_url }}">Request a quote</a></div></section>
