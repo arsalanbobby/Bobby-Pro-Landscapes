@@ -1,0 +1,15 @@
+title: Bobby Pro Landscapes
+description: Professional garden landscaping, paving, fencing and outdoor improvements across England.
+url: "https://bobbyprolandscapes.com"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
