@@ -91,3 +91,18 @@ a{color:inherit}
   .project-grid{grid-template-columns:1fr}
   .service-list{columns:1}
 }
+/* Photo asset structure for Bobby Pro Landscapes */
+.landscape-hero{min-height:520px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(10,30,16,.91),rgba(20,55,30,.66) 48%,rgba(20,55,30,.16)),url('../images/header-landscape.jpg') center/cover no-repeat}
+.landscape-hero .hero-grid{grid-template-columns:minmax(0,680px) 1fr}
+.landscape-hero .eyebrow,.landscape-hero .lead{color:white}
+.landscape-service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.photo-card{background:white;border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 10px 28px rgba(25,55,30,.08)}
+.photo-card img{width:100%;height:220px;object-fit:cover}
+.photo-card-body{padding:19px 21px 23px}
+.photo-card-body h3{margin:0 0 6px}
+.photo-card-body p{margin:0;color:var(--muted)}
+.landscape-services-six{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+.landscape-page-hero{color:white;background:linear-gradient(90deg,rgba(10,30,16,.92),rgba(20,55,30,.60),rgba(20,55,30,.15)),url('../images/header-landscape.jpg') center/cover no-repeat}
+.landscape-page-hero .eyebrow,.landscape-page-hero p{color:white}
+.centre{text-align:center}
+@media(max-width:820px){.landscape-service-grid,.landscape-services-six{grid-template-columns:1fr}.landscape-hero{min-height:430px}.photo-card img{height:230px}}
