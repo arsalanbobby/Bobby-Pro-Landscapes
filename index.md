@@ -24,7 +24,7 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
 
     <div class="polished-service-grid">
       <article class="polished-service-card">
-        <div class="polished-service-photo patio" role="img" aria-label="Patio and pathway landscaping"></div>
+        <img class="polished-service-photo" src="{{ '/assets/images/IMG_4869.jpg' | relative_url }}" alt="Patio and pathway landscaping">
         <div class="polished-service-body">
           <h3>Patios & Pathways</h3>
           <p>Patios, paving & pathways.</p>
@@ -32,7 +32,7 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
       </article>
 
       <article class="polished-service-card">
-        <div class="polished-service-photo lawn" role="img" aria-label="Finished landscaped lawn"></div>
+        <img class="polished-service-photo" src="{{ '/assets/images/IMG_4870.jpg' | relative_url }}" alt="Finished landscaped lawn">
         <div class="polished-service-body">
           <h3>Lawns & Landscaping</h3>
           <p>Lawns & garden makeovers.</p>
@@ -40,7 +40,7 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
       </article>
 
       <article class="polished-service-card">
-        <div class="polished-service-photo fence" role="img" aria-label="Garden fencing project"></div>
+        <img class="polished-service-photo" src="{{ '/assets/images/IMG_4871.jpg' | relative_url }}" alt="Garden fencing project">
         <div class="polished-service-body">
           <h3>Fencing</h3>
           <p>Fencing & garden boundaries.</p>
