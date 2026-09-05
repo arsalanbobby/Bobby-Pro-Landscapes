@@ -534,3 +534,21 @@ a{color:inherit}
   .content-grid > .contact-box-modern,
   .content-grid > .service-block{height:auto!important}
 }
+
+
+/* Laptop-friendly photo sizing */
+@media (min-width:821px) and (max-width:1440px){
+  .landscape-gallery-grid img{
+    height:210px!important;
+    object-fit:cover!important;
+  }
+  .services-feature-grid .photo-card img,
+  .landscape-services-home .photo-card img,
+  .polished-service-photo{
+    height:190px!important;
+    object-fit:cover!important;
+  }
+  .approved-landscape-hero{
+    min-height:470px!important;
+  }
+}
