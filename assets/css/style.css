@@ -319,3 +319,24 @@ a{color:inherit}
   .services-text-grid{grid-template-columns:1fr}
   .services-feature-grid .photo-card img{height:220px}
 }
+
+
+/* Blend Services hero smoothly into the service cards */
+.services-hero-clean{
+  position:relative;
+  padding:74px 0 92px;
+  border-bottom:0;
+}
+.services-hero-clean::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:105px;
+  background:linear-gradient(to bottom,rgba(246,248,243,0),#f6f8f3);
+  pointer-events:none;
+}
+.services-hero-clean .container{position:relative;z-index:1}
+.services-main-clean{
+  padding-top:34px;
+  border-top:0;
+}
