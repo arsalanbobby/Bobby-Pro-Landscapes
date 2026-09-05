@@ -489,3 +489,16 @@ a{color:inherit}
 @media(max-width:820px){
   .contact-box-modern .whatsapp-choice-grid{grid-template-columns:1fr!important}
 }
+
+
+/* Compact contact section */
+.contact-box-modern{padding:24px 28px!important;border-radius:20px!important}
+.contact-box-modern h2{font-size:clamp(2rem,3.4vw,3rem)!important;margin-bottom:18px!important}
+.contact-line{margin:9px 0!important;font-size:.96rem!important}
+.whatsapp-instruction{margin:18px 0 10px!important;padding-top:14px!important;font-size:.94rem!important}
+.contact-box-modern .whatsapp-choice-grid{gap:10px!important}
+.contact-box-modern a.whatsapp-choice{min-height:64px!important;padding:10px 14px!important;border-radius:12px!important}
+.contact-box-modern a.whatsapp-choice strong{font-size:.96rem!important}
+.contact-box-modern a.whatsapp-choice small{font-size:.78rem!important}
+.service-area-line{margin-top:14px!important;font-size:.94rem!important}
+@media(max-width:820px){.contact-box-modern{padding:22px 18px!important}}
