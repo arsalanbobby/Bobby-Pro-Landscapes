@@ -552,3 +552,47 @@ a{color:inherit}
     min-height:470px!important;
   }
 }
+
+
+/* Standardise all website photos for laptop screens — no maximum-size images */
+@media (min-width:821px){
+  .photo-card img,
+  .polished-service-photo,
+  .landscape-gallery-grid img{
+    height:190px!important;
+    max-height:190px!important;
+    width:100%!important;
+    object-fit:cover!important;
+  }
+
+  .landscape-gallery-grid{
+    gap:18px!important;
+  }
+
+  .approved-landscape-hero{
+    min-height:450px!important;
+    padding:58px 0!important;
+  }
+
+  .services-hero-clean{
+    padding-top:58px!important;
+    padding-bottom:72px!important;
+  }
+
+  .landscape-page-hero{
+    min-height:360px!important;
+  }
+}
+
+@media (min-width:821px) and (max-width:1200px){
+  .photo-card img,
+  .polished-service-photo,
+  .landscape-gallery-grid img{
+    height:175px!important;
+    max-height:175px!important;
+  }
+
+  .approved-landscape-hero{
+    min-height:420px!important;
+  }
+}
