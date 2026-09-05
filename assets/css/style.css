@@ -127,7 +127,7 @@ a{color:inherit}
 .approved-landscape-hero h1{font-size:clamp(3.1rem,6.7vw,6rem);line-height:1.02;color:#fff;max-width:700px}
 .approved-landscape-hero h1 span{color:#f0c76a}
 .approved-landscape-hero .hero-eyebrow{color:#fff;letter-spacing:.17em;max-width:500px}
-.approved-landscape-hero .lead{color:#fff!important;font-size:1.18rem;font-weight:700;line-height:1.55;text-shadow:0 2px 5px rgba(0,0,0,.9);background:rgba(5,28,16,.82);border-left:5px solid #f0c76a;border-radius:6px;padding:15px 18px;max-width:650px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
+.approved-landscape-hero p.lead{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;opacity:1!important;font-size:1.18rem;font-weight:700;line-height:1.55;text-shadow:0 2px 5px rgba(0,0,0,.9);background:rgba(5,28,16,.82);border-left:5px solid #f0c76a;border-radius:6px;padding:15px 18px;max-width:650px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
 .hero-outline{background:transparent;color:#fff;border-color:#fff}
 .hero-outline:hover{background:#fff;color:#1d3925}
 .landscape-trust{background:#fff;color:#1d281e;border-bottom:1px solid var(--border)}
