@@ -16,15 +16,6 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
   </div>
 </section>
 
-<section class="trust-strip landscape-trust">
-  <div class="container trust-grid">
-    <div><strong>15+ Years</strong><br>Experience</div>
-    <div><strong>Reliable & Trusted</strong><br>Professional service</div>
-    <div><strong>Fully Insured</strong><br>For your peace of mind</div>
-    <div><strong>Covering England</strong><br>Garden & outdoor work</div>
-  </div>
-</section>
-
 <section class="section landscape-services-home">
   <div class="container">
     <p class="eyebrow centre">Our main services</p>
@@ -56,5 +47,14 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
         </div>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="trust-strip landscape-trust">
+  <div class="container trust-grid">
+    <div><strong>15+ Years</strong><br>Experience</div>
+    <div><strong>Reliable & Trusted</strong><br>Professional service</div>
+    <div><strong>Fully Insured</strong><br>For your peace of mind</div>
+    <div><strong>Covering England</strong><br>Garden & outdoor work</div>
   </div>
 </section>
