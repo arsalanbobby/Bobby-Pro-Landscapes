@@ -36,7 +36,7 @@ description: Garden landscaping, paving, fencing, lawns and outdoor improvement 
       </article>
 
       <article class="photo-card">
-        <img src="{{ '/assets/images/IMG_4874.jpg' | relative_url }}" alt="Garden fencing">
+        <img src="{{ '/assets/images/IMG_4876.jpg' | relative_url }}" alt="Professional garden fencing">
         <div class="photo-card-body">
           <h3>Fencing</h3>
           <p>Fencing & garden boundaries.</p>
