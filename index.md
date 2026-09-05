@@ -26,8 +26,8 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
       <article class="photo-card">
         <img src="{{ '/assets/images/patio-paving.jpg' | relative_url }}" alt="Patio and paving project">
         <div class="photo-card-body">
-          <h3>Patios, Paving & Pathways</h3>
-          <p>Well-prepared paved areas and pathways designed for everyday use and a clean finish.</p>
+          <h3>Patios & Pathways</h3>
+          <p>Patios, paving & pathways.</p>
         </div>
       </article>
 
@@ -35,15 +35,15 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
         <img src="{{ '/assets/images/lawn-landscaping.jpg' | relative_url }}" alt="Landscaped garden lawn">
         <div class="photo-card-body">
           <h3>Lawns & Landscaping</h3>
-          <p>Garden preparation, lawns, artificial grass, borders and complete garden transformations.</p>
+          <p>Lawns & garden makeovers.</p>
         </div>
       </article>
 
       <article class="photo-card">
         <img src="{{ '/assets/images/fencing.jpg' | relative_url }}" alt="Garden fencing">
         <div class="photo-card-body">
-          <h3>Fencing & Boundaries</h3>
-          <p>Timber fencing, concrete posts and gravel boards for secure, tidy outdoor spaces.</p>
+          <h3>Fencing</h3>
+          <p>Fencing & garden boundaries.</p>
         </div>
       </article>
     </div>
