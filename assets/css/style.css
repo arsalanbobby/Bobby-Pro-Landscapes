@@ -120,7 +120,7 @@ a{color:inherit}
   min-height:525px;
   padding:70px 0;
   background:
-    linear-gradient(90deg,rgba(35,92,49,.78) 0%,rgba(42,108,58,.66) 35%,rgba(50,118,65,.40) 58%,rgba(50,118,65,.12) 78%,rgba(50,118,65,.04) 100%),
+    linear-gradient(90deg,rgba(55,125,70,.48) 0%,rgba(65,145,79,.38) 35%,rgba(74,154,86,.22) 58%,rgba(74,154,86,.07) 78%,rgba(74,154,86,.02) 100%),
     url('../images/header-landscape.jpg') center 48% / cover no-repeat;
 }
 .approved-landscape-hero .hero-grid{grid-template-columns:minmax(0,650px) 1fr}
