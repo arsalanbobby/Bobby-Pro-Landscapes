@@ -120,15 +120,15 @@ a{color:inherit}
   min-height:525px;
   padding:70px 0;
   background:
-    linear-gradient(90deg,rgba(55,125,70,.48) 0%,rgba(65,145,79,.38) 35%,rgba(74,154,86,.22) 58%,rgba(74,154,86,.07) 78%,rgba(74,154,86,.02) 100%),
+    linear-gradient(90deg,rgba(15,26,18,.72) 0%,rgba(20,33,23,.55) 37%,rgba(20,33,23,.20) 62%,rgba(20,33,23,.04) 82%,rgba(20,33,23,0) 100%),
     url('../images/header-landscape.jpg') center 48% / cover no-repeat;
 }
 .approved-landscape-hero .hero-grid{grid-template-columns:minmax(0,650px) 1fr}
-.approved-landscape-hero h1{font-size:clamp(3.1rem,6.7vw,6rem);line-height:1.02;color:#fff;max-width:700px}
-.approved-landscape-hero h1 span{color:#f0c76a}
+.approved-landscape-hero h1{font-size:clamp(3rem,6.2vw,5.6rem);line-height:1.01;color:#fff;max-width:720px;text-shadow:0 3px 18px rgba(0,0,0,.35)}
+.approved-landscape-hero h1 span{color:#fff3d6}
 .approved-landscape-hero .hero-eyebrow{color:#fff;letter-spacing:.17em;max-width:500px}
-.approved-landscape-hero p.lead{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;opacity:1!important;font-size:1.18rem;font-weight:700;line-height:1.55;text-shadow:0 2px 5px rgba(0,0,0,.9);background:rgba(5,28,16,.82);border-left:5px solid #f0c76a;border-radius:6px;padding:15px 18px;max-width:650px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
-.hero-outline{background:transparent;color:#fff;border-color:#fff}
+.approved-landscape-hero p.lead{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;opacity:1!important;font-size:1.08rem;font-weight:600;line-height:1.6;text-shadow:0 1px 3px rgba(0,0,0,.45);background:rgba(17,31,21,.54);border:1px solid rgba(255,255,255,.24);border-radius:14px;padding:16px 18px;max-width:620px;box-shadow:0 12px 32px rgba(0,0,0,.16);backdrop-filter:blur(7px)}
+.hero-outline{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.72);backdrop-filter:blur(5px)}
 .hero-outline:hover{background:#fff;color:#1d3925}
 .landscape-trust{background:#fff;color:#1d281e;border-bottom:1px solid var(--border)}
 .landscape-trust .trust-grid>div{padding:8px 18px;border-right:1px solid var(--border)}
