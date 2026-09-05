@@ -22,10 +22,30 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
     <h2 class="centre">Garden Landscaping <span class="green-text">Services</span></h2>
     <p class="section-intro centre-copy">Transforming outdoor spaces into beautiful, functional gardens.</p>
 
-    <div style="margin-top: 28px;">
-      <img src="{{ '/assets/images/home-services-polished.jpg' | relative_url }}"
-           alt="Bobby Pro Landscapes patios, lawns and fencing services"
-           style="display:block;width:100%;height:auto;border-radius:18px;">
+    <div class="polished-service-grid">
+      <article class="polished-service-card">
+        <div class="polished-service-photo patio" role="img" aria-label="Patio and pathway landscaping"></div>
+        <div class="polished-service-body">
+          <h3>Patios & Pathways</h3>
+          <p>Patios, paving & pathways.</p>
+        </div>
+      </article>
+
+      <article class="polished-service-card">
+        <div class="polished-service-photo lawn" role="img" aria-label="Finished landscaped lawn"></div>
+        <div class="polished-service-body">
+          <h3>Lawns & Landscaping</h3>
+          <p>Lawns & garden makeovers.</p>
+        </div>
+      </article>
+
+      <article class="polished-service-card">
+        <div class="polished-service-photo fence" role="img" aria-label="Garden fencing project"></div>
+        <div class="polished-service-body">
+          <h3>Fencing</h3>
+          <p>Fencing & garden boundaries.</p>
+        </div>
+      </article>
     </div>
   </div>
 </section>
