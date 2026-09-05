@@ -1,13 +1,13 @@
 :root{
-  --bg:#f5f7f2;
+  --bg:#f4f7f1;
   --surface:#ffffff;
-  --text:#1d281e;
-  --muted:#657064;
-  --brand:#31573a;
-  --brand-dark:#1d3925;
-  --accent:#b99459;
-  --soft:#e8efe6;
-  --border:#dce4da;
+  --text:#172318;
+  --muted:#526052;
+  --brand:#245c32;
+  --brand-dark:#163d22;
+  --accent:#8fbd3e;
+  --soft:#e7f0e3;
+  --border:#d4e0d1;
   --shadow:0 14px 40px rgba(33,58,38,.10);
   --radius:18px;
   --max:1180px;
@@ -115,17 +115,17 @@ a{color:inherit}
 .landscape-nav{gap:10px}
 .landscape-nav a{border-radius:6px}
 .landscape-nav a:hover{background:#eef6ea;color:#2f6b20}
-.landscape-nav .nav-cta{background:#3c7d25;color:#fff;padding:12px 16px}
+.landscape-nav .nav-cta{background:#2e7338;color:#fff;padding:12px 16px}
 .approved-landscape-hero{
   min-height:525px;
   padding:70px 0;
   background:
-    linear-gradient(90deg,rgba(7,35,24,.97) 0%,rgba(9,44,30,.91) 30%,rgba(9,44,30,.64) 48%,rgba(9,44,30,.18) 68%,rgba(9,44,30,.05) 100%),
-    url('../images/header-landscape.jpg') center 52% / cover no-repeat;
+    linear-gradient(90deg,rgba(8,35,20,.94) 0%,rgba(10,48,27,.84) 35%,rgba(12,52,29,.48) 58%,rgba(12,52,29,.14) 78%,rgba(12,52,29,.06) 100%),
+    url('../images/header-landscape.jpg') center 48% / cover no-repeat;
 }
 .approved-landscape-hero .hero-grid{grid-template-columns:minmax(0,650px) 1fr}
 .approved-landscape-hero h1{font-size:clamp(3.1rem,6.7vw,6rem);line-height:1.02;color:#fff;max-width:700px}
-.approved-landscape-hero h1 span{color:#7fbd32}
+.approved-landscape-hero h1 span{color:#a6d64f}
 .approved-landscape-hero .hero-eyebrow{color:#fff;letter-spacing:.17em;max-width:500px}
 .approved-landscape-hero .lead{color:#fff;font-size:1.12rem;text-shadow:0 1px 2px rgba(0,0,0,.2)}
 .hero-outline{background:transparent;color:#fff;border-color:#fff}
@@ -136,7 +136,7 @@ a{color:inherit}
 .landscape-trust strong{color:#2f6b20}
 .landscape-services-home{background:#fff}
 .centre-copy{text-align:center;margin-left:auto;margin-right:auto}
-.green-text{color:#3c7d25}
+.green-text{color:#2e7338}
 .landscape-services-home .photo-card{border-radius:8px}
 .landscape-services-home .photo-card img{height:240px}
 .landscape-gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
