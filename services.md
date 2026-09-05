@@ -20,23 +20,23 @@ description: Garden landscaping, paving, fencing, lawns and outdoor improvement 
 
     <div class="landscape-service-grid services-feature-grid">
       <article class="photo-card">
-        <img src="{{ '/assets/images/IMG_4869.jpg' | relative_url }}" alt="Patio and paving">
+        <img src="{{ '/assets/images/IMG_4872.jpg' | relative_url }}" alt="Flower beds and garden borders">
         <div class="photo-card-body">
-          <h3>Patios & Paving</h3>
+          <h3>Flower Beds & Borders</h3>
+          <p>Neat planting, shrubs & garden borders.</p>
+        </div>
+      </article>
+
+      <article class="photo-card">
+        <img src="{{ '/assets/images/IMG_4873.jpg' | relative_url }}" alt="Patio and pathway">
+        <div class="photo-card-body">
+          <h3>Patios & Pathways</h3>
           <p>Patios, paving & pathways.</p>
         </div>
       </article>
 
       <article class="photo-card">
-        <img src="{{ '/assets/images/IMG_4870.jpg' | relative_url }}" alt="Landscaped lawn">
-        <div class="photo-card-body">
-          <h3>Lawns & Garden Makeovers</h3>
-          <p>Lawns & complete garden makeovers.</p>
-        </div>
-      </article>
-
-      <article class="photo-card">
-        <img src="{{ '/assets/images/IMG_4871.jpg' | relative_url }}" alt="Garden fencing">
+        <img src="{{ '/assets/images/IMG_4874.jpg' | relative_url }}" alt="Garden fencing">
         <div class="photo-card-body">
           <h3>Fencing</h3>
           <p>Fencing & garden boundaries.</p>
