@@ -514,3 +514,23 @@ a{color:inherit}
 .contact-box-modern .service-area-line{
   margin-bottom:0!important;
 }
+
+
+/* Contact page: equal-size cards */
+.content-grid{
+  align-items:stretch!important;
+}
+.content-grid > .contact-box-modern,
+.content-grid > .service-block{
+  height:100%!important;
+  min-height:0!important;
+  box-sizing:border-box!important;
+}
+.content-grid > .service-block{
+  padding:24px 28px!important;
+  border-radius:20px!important;
+}
+@media(max-width:820px){
+  .content-grid > .contact-box-modern,
+  .content-grid > .service-block{height:auto!important}
+}
