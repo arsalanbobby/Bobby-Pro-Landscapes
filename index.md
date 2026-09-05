@@ -11,7 +11,6 @@ description: Bobby Pro Landscapes provides professional garden landscaping, pavi
       <p class="lead">Bobby Pro Landscapes delivers high-quality garden landscaping and outdoor solutions across England. From patios and lawns to fencing and full garden transformations, we bring your ideas to life with reliable workmanship and attention to detail.</p>
       <div class="actions">
         <a class="btn primary" href="{{ '/services/' | relative_url }}">Our Services →</a>
-        <a class="btn hero-outline" href="{{ '/contact/' | relative_url }}">Get a Free Quote</a>
       </div>
     </div>
   </div>
