@@ -277,3 +277,45 @@ a{color:inherit}
   background:#f6f8f3;
   border-top:1px solid #e3e9df;
 }
+
+
+/* Cleaner Services page matching the homepage */
+.services-hero-clean{
+  background:
+    linear-gradient(90deg,rgba(15,26,18,.80),rgba(20,33,23,.56),rgba(20,33,23,.16)),
+    url('../images/header-landscape.jpg') center 48% / cover no-repeat;
+  padding:64px 0 56px;
+}
+.services-hero-clean h1{max-width:760px}
+.services-main-clean{background:#f6f8f3}
+.services-feature-grid{margin-top:28px}
+.services-feature-grid .photo-card{border-radius:16px}
+.services-feature-grid .photo-card img{height:230px}
+.services-text-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:22px;
+}
+.service-text-card{
+  background:#fff;
+  border:1px solid #dfe7dc;
+  border-radius:14px;
+  padding:22px;
+  box-shadow:0 8px 22px rgba(33,58,38,.05);
+}
+.service-text-card h3{margin:0 0 6px}
+.service-text-card p{margin:0;color:var(--muted)}
+.services-quote-btn{
+  background:#fff!important;
+  color:#245c32!important;
+  border-color:#fff!important;
+}
+.services-quote-btn:hover{
+  background:#eef6ea!important;
+  color:#163d22!important;
+}
+@media(max-width:820px){
+  .services-text-grid{grid-template-columns:1fr}
+  .services-feature-grid .photo-card img{height:220px}
+}
