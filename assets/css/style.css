@@ -596,3 +596,218 @@ a{color:inherit}
     min-height:420px!important;
   }
 }
+
+
+/* Mobile sizing fix — keep the site compact and readable on phones */
+@media (max-width:820px){
+  body{
+    font-size:15px!important;
+    line-height:1.5!important;
+  }
+
+  .container{
+    width:min(calc(100% - 24px),var(--max))!important;
+  }
+
+  .nav-wrap{
+    min-height:68px!important;
+    gap:12px!important;
+  }
+
+  .landscape-brand img,
+  .brand img{
+    width:42px!important;
+    height:42px!important;
+  }
+
+  .landscape-brand strong{
+    font-size:.98rem!important;
+  }
+
+  .landscape-brand em{
+    font-size:.88rem!important;
+  }
+
+  .menu-toggle{
+    width:40px!important;
+    height:40px!important;
+  }
+
+  .site-nav{
+    top:66px!important;
+    left:12px!important;
+    right:12px!important;
+  }
+
+  .page-hero,
+  .section{
+    padding-top:38px!important;
+    padding-bottom:32px!important;
+  }
+
+  .hero h1,
+  .page-hero h1,
+  .approved-landscape-hero h1{
+    font-size:clamp(2rem,10vw,3rem)!important;
+    line-height:1.02!important;
+    letter-spacing:-.04em!important;
+  }
+
+  .hero p.lead,
+  .page-hero p,
+  .section-intro{
+    font-size:1rem!important;
+    line-height:1.5!important;
+  }
+
+  .approved-landscape-hero{
+    min-height:0!important;
+    padding:42px 0!important;
+  }
+
+  .approved-landscape-hero::before{
+    opacity:.14!important;
+  }
+
+  .approved-landscape-hero p.lead{
+    font-size:.98rem!important;
+    max-width:100%!important;
+  }
+
+  .actions{
+    margin-top:20px!important;
+    gap:8px!important;
+  }
+
+  .btn,
+  .nav-cta{
+    padding:10px 14px!important;
+    font-size:.92rem!important;
+  }
+
+  .trust-strip{
+    padding:14px 0!important;
+  }
+
+  .trust-grid{
+    grid-template-columns:1fr 1fr!important;
+    gap:8px!important;
+    font-size:.88rem!important;
+  }
+
+  .landscape-trust .trust-grid>div{
+    padding:8px 6px!important;
+  }
+
+  .cards,
+  .landscape-service-grid,
+  .landscape-services-six,
+  .polished-service-grid,
+  .services-text-grid,
+  .landscape-gallery-grid{
+    grid-template-columns:1fr!important;
+    gap:14px!important;
+  }
+
+  .card,
+  .service-block,
+  .photo-card,
+  .polished-service-card{
+    border-radius:12px!important;
+  }
+
+  .card,
+  .service-block{
+    padding:18px!important;
+  }
+
+  .photo-card img,
+  .polished-service-photo,
+  .landscape-gallery-grid img,
+  .services-feature-grid .photo-card img,
+  .landscape-services-home .photo-card img{
+    width:100%!important;
+    height:180px!important;
+    max-height:180px!important;
+    object-fit:cover!important;
+  }
+
+  .photo-card-body,
+  .polished-service-body{
+    padding:14px 15px 16px!important;
+  }
+
+  .photo-card-body h3,
+  .polished-service-body h3{
+    font-size:1rem!important;
+  }
+
+  .photo-card-body p,
+  .polished-service-body p{
+    font-size:.9rem!important;
+  }
+
+  .content-grid{
+    grid-template-columns:1fr!important;
+    gap:16px!important;
+  }
+
+  .contact-box-modern{
+    padding:20px 18px!important;
+    border-radius:16px!important;
+  }
+
+  .contact-box-modern h2{
+    font-size:2rem!important;
+    margin-bottom:14px!important;
+  }
+
+  .contact-line{
+    font-size:.9rem!important;
+    gap:8px!important;
+  }
+
+  .whatsapp-instruction{
+    font-size:.88rem!important;
+    margin-top:14px!important;
+    padding-top:12px!important;
+  }
+
+  .contact-box-modern .whatsapp-choice-grid{
+    grid-template-columns:1fr!important;
+    gap:8px!important;
+  }
+
+  .contact-box-modern a.whatsapp-choice{
+    min-height:56px!important;
+    padding:9px 12px!important;
+  }
+
+  .contact-box-modern a.whatsapp-choice strong{
+    font-size:.9rem!important;
+  }
+
+  .contact-box-modern a.whatsapp-choice small{
+    font-size:.74rem!important;
+  }
+
+  .service-area-line{
+    font-size:.88rem!important;
+  }
+
+  .site-footer{
+    padding:28px 0 16px!important;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr!important;
+    gap:14px!important;
+  }
+
+  .whatsapp-float{
+    right:10px!important;
+    bottom:10px!important;
+    padding:9px 13px!important;
+    font-size:.85rem!important;
+  }
+}
