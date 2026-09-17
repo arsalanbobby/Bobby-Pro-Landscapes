@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/IMG_4870.jpg' | absolute_url }}">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HomeAndConstructionBusiness",
+    "name":"Bobby Pro Landscapes",
+    "url":"https://bobbyprolandscapes.com/",
+    "logo":"https://bobbyprolandscapes.com/assets/logo.svg",
+    "image":"https://bobbyprolandscapes.com/assets/images/IMG_4870.jpg",
+    "description":"Professional garden landscaping, paving, fencing, lawns and outdoor improvements across England.",
+    "telephone":["+447344304402","+447833778270"],
+    "email":"Quickfixhome2@gmail.com",
+    "areaServed":{"@type":"Country","name":"England"},
+    "priceRange":"££"
+  }
+  </script>
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
