@@ -11,19 +11,17 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ '/assets/images/IMG_4870.jpg' | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/header-landscape.jpg' | absolute_url }}">
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"HomeAndConstructionBusiness",
     "name":"Bobby Pro Landscapes",
-    "url":"https://bobbyprolandscapes.com/",
-    "logo":"https://bobbyprolandscapes.com/assets/logo.svg",
-    "image":"https://bobbyprolandscapes.com/assets/images/IMG_4870.jpg",
-    "description":"Professional garden landscaping, paving, fencing, lawns and outdoor improvements across England.",
-    "telephone":["+447344304402","+447833778270"],
+    "url":"https://www.bobbyprolandscapes.com/",
+    "description":"Professional landscaping, paving, fencing and garden transformations across London, Surrey and England.",
+    "telephone":"+44 7344 304402",
     "email":"Quickfixhome2@gmail.com",
-    "areaServed":{"@type":"Country","name":"England"},
+    "areaServed":["London","Surrey","England"],
     "priceRange":"££"
   }
   </script>
@@ -31,50 +29,47 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header landscape-header">
+  <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand landscape-brand" href="{{ '/' | relative_url }}" aria-label="Bobby Pro Landscapes home">
+      <a class="brand" href="{{ '/' | relative_url }}#home" aria-label="Bobby Pro Landscapes home">
         <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Bobby Pro Landscapes logo">
-        <span>
-          <strong>Bobby Pro</strong>
-          <em>Landscapes</em>
-        </span>
+        <span><strong>Bobby Pro</strong><em>Landscapes</em></span>
       </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span class="sr-only">Open menu</span><span></span><span></span><span></span>
-      </button>
-
-      <nav id="site-menu" class="site-nav landscape-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/services/' | relative_url }}">Services</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Request a Quote →</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#home">Home</a>
+        <a href="{{ '/' | relative_url }}#services">Services</a>
+        <a href="{{ '/' | relative_url }}#about">About</a>
+        <a href="{{ '/' | relative_url }}#gallery">Gallery</a>
+        <a href="{{ '/' | relative_url }}#contact">Contact</a>
       </nav>
+      <a class="header-quote" href="{{ '/' | relative_url }}#contact">Get a Quote</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
     </div>
   </header>
-
   <main>{{ content }}</main>
-
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>Bobby Pro Landscapes</strong>
-        <p>Design • Build • Transform</p>
-      </div>
-      <div>
-        <strong>Garden & outdoor services</strong>
-        <p>Landscaping • Paving • Fencing • Lawns • Garden buildings</p>
-      </div>
-    </div>
-    <div class="container footer-bottom">
+    <div class="container footer-inner">
+      <div><strong>Bobby Pro Landscapes</strong><span>Beautiful outdoor spaces, built to last.</span></div>
       <span>&copy; {{ 'now' | date: "%Y" }} Bobby Pro Landscapes. All rights reserved.</span>
     </div>
   </footer>
-
+  <div class="backdrop" data-backdrop></div>
+  <aside id="mobile-menu" class="mobile-panel" aria-hidden="true">
+    <button class="panel-close" type="button" aria-label="Close menu">×</button>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="{{ '/' | relative_url }}#home">Home</a>
+      <button class="mobile-dropdown-toggle" type="button" aria-expanded="false" aria-controls="mobile-services-list">Services</button>
+      <ul id="mobile-services-list" class="mobile-list" hidden>
+        <li>Garden landscaping</li><li>Patios &amp; paving</li><li>Lawns &amp; artificial grass</li><li>Fencing &amp; boundaries</li><li>Garden clearance</li><li>Garden buildings &amp; bases</li>
+      </ul>
+      <button class="mobile-dropdown-toggle" type="button" aria-expanded="false" aria-controls="mobile-about-copy">About</button>
+      <div id="mobile-about-copy" class="mobile-copy" hidden><p>We listen to what each customer wants and create practical outdoor spaces with careful preparation and reliable workmanship.</p></div>
+      <button class="mobile-dropdown-toggle" type="button" aria-expanded="false" aria-controls="mobile-gallery-copy">Gallery</button>
+      <div id="mobile-gallery-copy" class="mobile-copy" hidden><p>View completed gardens now. Before-and-finished project photos will be added as they become available.</p></div>
+      <a href="{{ '/' | relative_url }}#contact">Contact</a>
+    </nav>
+  </aside>
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Project image"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
   <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  <a class="whatsapp-float" href="https://wa.me/447344304402" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">WhatsApp</a>
 </body>
 </html>
